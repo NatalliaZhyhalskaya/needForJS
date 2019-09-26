@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	color: #333;
+	font-family: Tahoma, sans-serif;
+}
+.header{
+	margin-top: 80px;
+	font-size: 24px;
+	text-align: center;
+}
+.header span {
+	display: block;
+	font-weight: 300;
+}
+.header strong {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.main {
+	margin-top: 30px;
+	padding: 30px;px 10%;
+	text-align: center;
+}
+.form {
+border: 5px solid blue;
+padding: 20px;
+}
+.video, .form {
+	display: inline-block;
+	vertical-align: top;
+}
+.form input, button {
+	width: 300px;
+	padding: 15px;
+	border: 2px colid #333;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.form {
+	margin-left: 30px;
+}
+.headerform {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+input {
+	display: block;
+}
+.fotmbat {
+	background-color: blue;
+	text-align: center;
+	color: #FFFF;
+	margin-bottom: 20px;
+	font-weight: 900;
+	border: none;
+}
+.plus p {
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 120px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.plusy {
+	text-align: center;
+}
+.col {
+	width: 180px;
+	text-align: center;
+	display: inline-block;
+}
+.col:nth-child(n+2) {
+	margin-left: 50px;
+}
+.col img {
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+}
+.col p {
+	text-align: center;
+	font-weight: 900;
+	display: inline-block;
+}
+
+.lost {
+	text-align: center;
+	margin-top: 50px;
+}
