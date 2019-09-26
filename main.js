@@ -67,6 +67,7 @@ function playGame(){
     
     if (setting.start === true ) {
         setting.score += setting.speed;
+        
         score.innerHTML = 'SCORE:<br>' + setting.score;
         moveRoad();
         moveEnemy();
